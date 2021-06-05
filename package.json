@@ -302,7 +302,8 @@
     "lint": "eslint . bin/*",
     "test": "make test && make clean",
     "preversion": "make test && rm mocha.js && make mocha.js && git add mocha.js",
-    "coveralls": "nyc report --reporter=text-lcov | coveralls"
+    "coveralls": "nyc report --reporter=text-lcov | coveralls",
+    "prepack": "npm install && rm mocha.js && make mocha.js"
   },
   "peerDependencies": {
     "growl": ">=1 <2"
