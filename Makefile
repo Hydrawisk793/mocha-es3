@@ -25,6 +25,8 @@ mocha.js BUILDTMP/mocha.js: $(SRC) browser-entry.js
 		--ignore 'fs' \
 		--ignore 'glob' \
 		--ignore 'path' \
+		--require './lib/node-builtins/inherits.js:inherits' \
+		--require './lib/node-builtins/util.js:util' \
 		--ignore 'supports-color' > $@
 
 clean:

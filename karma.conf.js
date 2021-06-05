@@ -38,6 +38,8 @@ module.exports = function (config) {
         b.ignore('glob')
           .ignore('fs')
           .ignore('path')
+          .require('./lib/node-builtins/inherits.js', { expose: 'inherits' })
+          .require('./lib/node-builtins/util.js', { expose: 'util' })
           .ignore('supports-color')
           .on('bundled', function (err, content) {
             if (!err && bundleDirpath) {
