@@ -1,7 +1,7 @@
 {
   "name": "mocha",
   "version": "3.5.3",
-  "description": "simple, flexible, fun test framework",
+  "description": "A fork of `mocha` for ECMAScript 3 environments.",
   "keywords": [
     "mocha",
     "test",
@@ -288,7 +288,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mochajs/mocha.git"
+    "url": "https://github.com/Hydrawisk793/mocha-es3.git"
   },
   "bin": {
     "mocha": "./bin/mocha",
