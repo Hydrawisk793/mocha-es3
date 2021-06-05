@@ -304,6 +304,9 @@
     "preversion": "make test && rm mocha.js && make mocha.js && git add mocha.js",
     "coveralls": "nyc report --reporter=text-lcov | coveralls"
   },
+  "peerDependencies": {
+    "growl": ">=1 <2"
+  },
   "dependencies": {
     "browser-stdout": "1.3.0",
     "commander": "^2.20.3",
@@ -311,7 +314,6 @@
     "diff": "3.2.0",
     "escape-string-regexp": "1.0.5",
     "glob": "7.1.1",
-    "growl": "1.9.2",
     "he": "1.1.1",
     "json3": "3.3.2",
     "lodash.create": "3.1.1",
@@ -331,6 +333,7 @@
     "eslint-plugin-promise": "^3.4.0",
     "eslint-plugin-standard": "2.0.1",
     "expect.js": "^0.3.1",
+    "growl": "1.9.2",
     "karma": "1.3.0",
     "karma-browserify": "^5.0.5",
     "karma-chrome-launcher": "^2.0.0",
