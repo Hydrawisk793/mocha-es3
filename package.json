@@ -1,6 +1,6 @@
 {
   "name": "mocha",
-  "version": "3.5.3",
+  "version": "3.5.4",
   "description": "A fork of `mocha` for ECMAScript 3 environments.",
   "keywords": [
     "mocha",
