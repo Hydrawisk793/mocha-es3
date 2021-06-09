@@ -1,4 +1,5 @@
 coverage/
 lib/to-iso-string/**/*.js
+lib/node-builtins
 mocha.js
 BUILDTMP

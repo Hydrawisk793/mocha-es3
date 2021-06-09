@@ -1,10 +1,10 @@
 {
   "name": "mocha",
   "homepage": "https://mochajs.org",
-  "description": "simple, flexible, fun test framework",
+  "description": "A fork of `mocha` for ECMAScript 3 environments.",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mochajs/mocha.git"
+    "url": "git://github.com/Hydrawisk793/mocha-es3.git"
   },
   "main": [
     "mocha.js",
